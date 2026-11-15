@@ -1,0 +1,7 @@
+streamlit>=1.51
+plotly
+pandas
+numpy
+matplotlib
+seaborn
+watchdog
