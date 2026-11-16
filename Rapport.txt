@@ -1,0 +1,20 @@
+Explication du code :
+
+    - Lignes 1 à 6 : Importation des librairies
+
+    - Lignes 6 à  50 : Définition des fonctions:
+        - page_content_extr => Extraction du contenu de la page html
+        - url_extraction => Extrait l'URL de chaque pokémon
+        - rows_cols_extr => Extrait les colonnes et lignes des tableaux
+        - rows_cols_extr_base_stats => Extraction du tableau "base stats", structuration différente des autres tableaux
+
+
+    - Après la ligne 51 : 
+        - Utilisation des fonctions
+        - Récupération des infos et aggégation dans un tableaux
+        - Récupération des images et sauvegarde dans le dossier "images"
+
+
+Résultat : 
+- Un tableau contenant les stats de chaque pokémon
+- Un dossier contenant les images de chaque pokémon
